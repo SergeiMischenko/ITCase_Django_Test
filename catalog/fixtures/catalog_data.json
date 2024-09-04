@@ -1,0 +1,148 @@
+[
+    {
+        "model": "catalog.product",
+        "pk": 1,
+        "fields": {
+            "name": "Смартфон",
+            "description": "Современный смартфон с большим экраном.",
+            "base_price": "29999.99",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 2,
+        "fields": {
+            "name": "Ноутбук",
+            "description": "Мощный ноутбук для работы и игр.",
+            "base_price": "74999.99",
+            "sort_order": 2
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 3,
+        "fields": {
+            "name": "Наушники",
+            "description": "Беспроводные наушники с шумоподавлением.",
+            "base_price": "9999.99",
+            "sort_order": 3
+        }
+    },
+    {
+        "model": "catalog.productimage",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "image": "catalog/product_images/smartphone1.jpg",
+            "caption": "Вид спереди",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productimage",
+        "pk": 2,
+        "fields": {
+            "product": 1,
+            "image": "catalog/product_images/smartphone2.jpg",
+            "caption": "Вид сзади",
+            "sort_order": 2
+        }
+    },
+    {
+        "model": "catalog.productimage",
+        "pk": 3,
+        "fields": {
+            "product": 2,
+            "image": "catalog/product_images/laptop1.jpg",
+            "caption": "Открытый ноутбук",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productimage",
+        "pk": 4,
+        "fields": {
+            "product": 2,
+            "image": "catalog/product_images/laptop2.jpg",
+            "caption": "Ноутбук с боку",
+            "sort_order": 2
+        }
+    },
+    {
+        "model": "catalog.productimage",
+        "pk": 5,
+        "fields": {
+            "product": 3,
+            "image": "catalog/product_images/headphones1.jpg",
+            "caption": "Наушники",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "name": "Цвет",
+            "value": "Черный",
+            "price": "0.00",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 2,
+        "fields": {
+            "product": 1,
+            "name": "Память",
+            "value": "128 ГБ",
+            "price": "5000.00",
+            "sort_order": 2
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 3,
+        "fields": {
+            "product": 2,
+            "name": "Процессор",
+            "value": "Intel Core i7",
+            "price": "0.00",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 4,
+        "fields": {
+            "product": 2,
+            "name": "Оперативная память",
+            "value": "16 ГБ",
+            "price": "10000.00",
+            "sort_order": 2
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 5,
+        "fields": {
+            "product": 3,
+            "name": "Цвет",
+            "value": "Белый",
+            "price": "0.00",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "catalog.productparameter",
+        "pk": 6,
+        "fields": {
+            "product": 3,
+            "name": "Тип подключения",
+            "value": "Bluetooth",
+            "price": "0.00",
+            "sort_order": 2
+        }
+    }
+]
